@@ -1,0 +1,31 @@
+{
+  "name": "moviemoji",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "serve": "nodemon ./src/index.js localhost 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XandeCoding/Moviemoji.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XandeCoding/Moviemoji/issues"
+  },
+  "homepage": "https://github.com/XandeCoding/Moviemoji#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.0.0",
+    "hapi-auto-route": "^3.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "nodemon": "^2.0.4"
+  }
+}
